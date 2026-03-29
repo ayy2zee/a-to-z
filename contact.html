@@ -28,57 +28,28 @@
       <p>Have something to say? I'd love to hear from you.</p>
     </div>
 
-    <div class="contact-layout">
-
-      <div class="contact-intro">
-        <p>Whether it's a question about something I wrote, a project idea, or just a hello — my inbox is open.</p>
-        <p>I try to respond to every message, though it might take me a few days.</p>
-
-        <div class="contact-methods">
-          <a href="mailto:hello@example.com" class="contact-method">
-            <span class="contact-method-icon">✉️</span>
-            <div class="contact-method-text">
-              hello@example.com
-              <strong>Email</strong>
-            </div>
-          </a>
-          <a href="https://twitter.com/" target="_blank" rel="noopener" class="contact-method">
-            <span class="contact-method-icon">𝕏</span>
-            <div class="contact-method-text">
-              @yourhandle
-              <strong>Twitter / X</strong>
-            </div>
-          </a>
-          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-method">
-            <span class="contact-method-icon">⌥</span>
-            <div class="contact-method-text">
-              github.com/yourhandle
-              <strong>GitHub</strong>
-            </div>
-          </a>
+    <div class="contact-methods">
+      <a href="mailto:alexyzhong@gmail.com" class="contact-method">
+        <span class="contact-method-icon">✉️</span>
+        <div class="contact-method-text">
+          alexyzhong@gmail.com
+          <strong>Email</strong>
         </div>
-      </div>
-
-      <div>
-        <h2 style="margin-bottom:1.25rem;">Send a message</h2>
-        <form onsubmit="handleSubmit(event)">
-          <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required />
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required />
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
-          </div>
-          <button type="submit">Send message</button>
-          <p id="form-status" style="font-size:0.85rem;color:#6b7280;margin-top:0.5rem;display:none;"></p>
-        </form>
-      </div>
-
+      </a>
+      <a href="https://twitter.com/ayytoozee" target="_blank" rel="noopener" class="contact-method">
+        <span class="contact-method-icon">𝕏</span>
+        <div class="contact-method-text">
+          @ayytoozee
+          <strong>Twitter / X</strong>
+        </div>
+      </a>
+      <a href="https://github.com/ayy2zee" target="_blank" rel="noopener" class="contact-method">
+        <span class="contact-method-icon">⌥</span>
+        <div class="contact-method-text">
+          github.com/ayy2zee
+          <strong>GitHub</strong>
+        </div>
+      </a>
     </div>
   </div>
 </main>
@@ -90,14 +61,5 @@
 </footer>
 
 <script src="js/main.js"></script>
-<script>
-  function handleSubmit(e) {
-    e.preventDefault();
-    const status = document.getElementById("form-status");
-    status.style.display = "block";
-    status.textContent = "Thanks for your message! I'll get back to you soon.";
-    e.target.reset();
-  }
-</script>
 </body>
 </html>
