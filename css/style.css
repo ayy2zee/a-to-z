@@ -257,6 +257,9 @@ a:hover { color: var(--link-hover); }
 
 .contact-methods { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1.5rem; }
 
+.contact-methods--row { flex-direction: row; }
+.contact-methods--row .contact-method { flex: 1; }
+
 .contact-method {
   display: flex;
   align-items: center;
