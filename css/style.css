@@ -124,6 +124,12 @@ a:hover { color: var(--link-hover); }
   font-size: 0.75rem;
 }
 
+.post-edited {
+  font-style: italic;
+  color: #9ca3af;
+  font-size: 0.75rem;
+}
+
 .post-item h2 { margin-bottom: 0.4rem; }
 
 .post-item h2 a {
